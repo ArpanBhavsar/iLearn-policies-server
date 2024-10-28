@@ -1,0 +1,23 @@
+{
+  "name": "ilearn-policies-server",
+  "version": "1.0.0",
+  "description": "Node.js Server for iLearn policies flutter web. ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Node.js",
+    "flutter",
+    "iLearn",
+    "policies"
+  ],
+  "author": "Arpan Bhavsar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "fs": "^0.0.1-security",
+    "https": "^1.0.0",
+    "path": "^0.12.7"
+  }
+}
