@@ -1,7 +1,11 @@
 const express = require('express');
 const path = require('path');
+const cors = require('cors');
 
 const app = express();
+
+// Enable CORS for all routes
+app.use(cors());
 
 // Serve the Flutter web app from the 'public' folder
 app.use(express.static(path.join(__dirname, 'public')));
